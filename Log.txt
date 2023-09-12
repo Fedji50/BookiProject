@@ -1,3 +1,4 @@
 10/09/2023 : Création dépot distant et ajout des fichiers et dossiers/ index.html: texte intégré, header réalisé et search barre en cours.
-11/09/2023 11h50 : Réalisation partie barre de recherche
-	   17h12 : Réalisation parie Filtres + paragraphe en dessous
+11/09/2023 11h50 : Réalisation Form
+	   17h12 : Réalisation partie Filtres + paragraphe en dessous
+12/09/2023 18h52 : Réalisation de la partie Hébergements et corrections partie Filters (couleur de bordure) et Form (border-radius)
