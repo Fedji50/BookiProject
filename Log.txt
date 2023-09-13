@@ -2,3 +2,4 @@
 11/09/2023 11h50 : Réalisation Form
 	   17h12 : Réalisation partie Filtres + paragraphe en dessous
 12/09/2023 18h52 : Réalisation de la partie Hébergements et corrections partie Filters (couleur de bordure) et Form (border-radius)
+13/09/2023 16h38 : Réalisation de la partie Activités

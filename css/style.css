@@ -315,6 +315,59 @@ nav ul {
     margin-bottom: 5px;
 }
 
+/**** Activités ****/
+.activites-content {
+    margin-top: 35px;
+}
+.activites{
+    width: 1280px;
+    padding: 30px 30px 30px 30px;
+    
+}
+
+.activites-cards {
+    width: 1280px; 
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 35px;
+}  
+
+.activites .lieu-card {
+    display: flex;
+}
+
+.lieu-card {
+    height: 439px;
+    width: 298px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+}
+
+.activites img {
+    width: 100%;
+    height: 380px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.activites .card-content {
+    width: 67%;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.activites .card-title {
+    margin-top: 10px;
+    margin-bottom: 4px;
+    margin-left: 10px;
+}  
 /**** Footer ****/
 .pied-de-page {
     background-color: var(--main-bg-color);
