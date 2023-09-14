@@ -319,6 +319,7 @@ nav ul {
 .activites-content {
     margin-top: 35px;
 }
+
 .activites{
     width: 1280px;
     padding: 30px 30px 30px 30px;
@@ -364,32 +365,26 @@ nav ul {
 }
 
 .activites .card-title {
-    margin-top: 10px;
-    margin-bottom: 4px;
-    margin-left: 10px;
+    margin-left: 19px;
 }  
+
 /**** Footer ****/
 .pied-de-page {
     background-color: var(--main-bg-color);
-    border-radius: 20px;
-    padding: 15px;
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
     
 }
 .rubrique {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    margin-right:auto
+    width: 446px;
+    margin-left: 20px;
 }
+
 h4 {
     justify-content: left;
-}
-.footer-lien {
-    justify-content: left;
+    font-size: 18px;
+    margin-bottom: 15px;
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
