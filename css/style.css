@@ -235,6 +235,7 @@ nav ul {
     height: 124px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    object-fit: cover;
 }
 
 .hebergements-cards .card-content {
@@ -353,6 +354,7 @@ nav ul {
     height: 380px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    object-fit: cover;
 }
 
 .activites .card-content {
