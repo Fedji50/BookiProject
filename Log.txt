@@ -8,3 +8,5 @@
 	   21h50 : Test W3C et corrections (HTML -> remplacement Populaires par Aside, CSS -> suppression border-top dans .nav-lien, suppression align-content: left dans .filters)
 16/09/2023 10h43 : Rectification code CSS (ajout de la propriété object-fit par association des classes .card img, heb-card img, .activites img {} et suppression de la 
 		   propriété object-fit dans les classes hebergements-cards img et activites img.
+	   19h00 : Suppression de la partie CSS [.hebergements-cards .card-content] ->aucune incidence sur le rendu. 
+		   Début de la partie responsive avec ajout de .hebergements-and-populaires, .hebergements, .heb-card .card-title, .heb-card .card-subtitle
