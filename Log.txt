@@ -10,3 +10,4 @@
 		   propriété object-fit dans les classes hebergements-cards img et activites img.
 	   19h00 : Suppression de la partie CSS [.hebergements-cards .card-content] ->aucune incidence sur le rendu. 
 		   Début de la partie responsive avec ajout de .hebergements-and-populaires, .hebergements, .heb-card .card-title, .heb-card .card-subtitle
+	   22h00 : Partie responsive -> ajout de .hebergements-cards {grid-template-columns : 31% 31% 31%}

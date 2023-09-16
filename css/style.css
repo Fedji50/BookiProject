@@ -236,8 +236,6 @@ nav ul {
     border-top-right-radius: 20px;
 }
 
-
-
 .hebergements-cards .card-title {
     margin-top: 10px;
     margin-bottom: 4px;
@@ -396,6 +394,9 @@ h4 {
         width: 100%;
     }
 
+    .hebergements-cards {
+        grid-template-columns: 31% 31% 31%;
+    }
     .heb-card .card-title {
         font-size: 14px;
     }
