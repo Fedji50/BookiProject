@@ -45,8 +45,7 @@ a {
 
 .card img, .heb-card img, .activites img {
     object-fit: cover;
-    background-color: red !important;
-}
+}    
 
 .card-title {
     font-size: 16px;
@@ -212,7 +211,7 @@ nav ul {
 
 .hebergements-cards {
     display: grid;
-    grid-template-columns: 250px 250px 250px;
+    grid-template-columns: 31% 31% 31%;
     justify-content: space-between;  
 }
 .hebergements-cards .heb-card {
@@ -312,29 +311,28 @@ nav ul {
 /**** Activités ****/
 .activites-content {
     margin-top: 35px;
+    width: 100%
 }
 
 .activites{
-    width: 1280px;
-    padding: 30px 30px 30px 30px;
-    
+    width: 100%;
 }
 
 .activites-cards {
-    width: 1280px; 
+    width: 100%; 
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
     margin-bottom: 35px;
 }  
 
-.activites .lieu-card {
-    display: flex;
+.activites-cards a {
+    display: block;
 }
 
 .lieu-card {
-    height: 439px;
-    width: 298px;
+    width: 21vw;
+    max-width: 298px;
     display: flex;
     flex-direction: column;
     background-color: white;
@@ -344,22 +342,15 @@ nav ul {
 
 .activites img {
     width: 100%;
-    height: 380px;
+    max-width: 298px;
+    height: 35vh;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
 
-.activites .card-content {
-    width: 67%;
-    padding-left: 15px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    box-sizing: border-box;
-}
-
 .activites .card-title {
     margin-left: 19px;
+    font-size: 1em;
 }  
 
 /**** Footer ****/
@@ -367,9 +358,9 @@ nav ul {
     background-color: var(--main-bg-color);
     box-sizing: border-box;
     display: flex;
-    flex-direction: row;
-    
+    flex-direction: row;   
 }
+
 .rubrique {
     width: 446px;
     margin-left: 20px;
@@ -397,6 +388,7 @@ h4 {
     .hebergements-cards {
         grid-template-columns: 31% 31% 31%;
     }
+
     .heb-card .card-title {
         font-size: 14px;
     }
@@ -426,6 +418,39 @@ h4 {
 
     .populaires-cards .card-subtitle {
         font-size: 13px;
+    }
+    
+    .activites-content {
+        display: flex;
+
+    }
+    .activites {
+        max-width: 924px;
+        
+    }
+
+    .activites-cards {
+        max-width : 864px;
+        height : 270px;
+        display : flex;
+            
+    }
+
+    .activites-cards a {
+        display: flex;
+        max-width: 194px;
+        
+    }
+
+    .lieu-card {
+        height: auto !important;
+        max-width: 100% !important;
+        
+    }
+
+    .activites img {
+        height: 200px;
+        width: auto;
     }
 }
 

@@ -11,3 +11,4 @@
 	   19h00 : Suppression de la partie CSS [.hebergements-cards .card-content] ->aucune incidence sur le rendu. 
 		   Début de la partie responsive avec ajout de .hebergements-and-populaires, .hebergements, .heb-card .card-title, .heb-card .card-subtitle
 	   22h00 : Partie responsive -> ajout de .hebergements-cards {grid-template-columns : 31% 31% 31%}
+23/09/2023 19h50 : Finalisation section Activités (ajout de l'unité vw et vh pour les classes .lieu-card et .activites img)
