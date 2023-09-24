@@ -85,8 +85,8 @@ nav ul {
    padding-top: 20px; 
 }
 .nav-lien:hover {
-    color: #0065FC;
-    border-top: 2px solid #0065FC;
+    color: var(--main-color);
+    border-top: 2px solid var(--main-color);
     
 }
 /**** Section Titre****/
@@ -377,10 +377,11 @@ h4 {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+/****** hebergements-and-populaires ******/    
     .hebergements-and-populaires {
         flex-direction: column;
     }
-
+/****** Hebergements ***********/
     .hebergements {
         width: 100%;
     }
@@ -419,7 +420,7 @@ h4 {
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
-    
+/****** activites ******/   
     .activites-content {
         display: flex;
 
