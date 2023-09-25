@@ -13,3 +13,4 @@
 	   22h00 : Partie responsive -> ajout de .hebergements-cards {grid-template-columns : 31% 31% 31%}
 23/09/2023 19h50 : Finalisation section Activités (ajout de l'unité vw et vh pour les classes .lieu-card et .activites img)
 24/09/2023 22h02 : Ajout de commentaires pour la structure des Media Queries.
+25/09/2023 11h00 : Rectification Résolution Tablettes Section Activités (.activites : max-width:100%; padding-left: 3.25%; padding-right: 3.25%; )

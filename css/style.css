@@ -426,27 +426,25 @@ h4 {
 
     }
     .activites {
-        max-width: 924px;
-        
+        max-width: 100%;
+        padding-left: 3.25%;
+        padding-right: 3.25%;
     }
 
     .activites-cards {
         max-width : 864px;
         height : 270px;
-        display : flex;
-            
+        display : flex;        
     }
 
     .activites-cards a {
         display: flex;
-        max-width: 194px;
-        
+        max-width: 194px;   
     }
 
     .lieu-card {
-        height: auto !important;
-        max-width: 100% !important;
-        
+        height: auto;
+        max-width: 100%;
     }
 
     .activites img {
