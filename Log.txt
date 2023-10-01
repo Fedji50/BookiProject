@@ -16,3 +16,4 @@
 25/09/2023 11h00 : Rectification Résolution Tablettes Section Activités (.activites : max-width:100%; padding-left: 3.25%; padding-right: 3.25%; )
 28/09/2023 14h30 : Mise en forme section Nav.
 29/09/2023 14h30 : Responsive Mobile : Mise en forme section Form et Filters. Changement index.html -> ajut de la div class="filter" pour mettre les boutons de filtres.
+01/10/2023 22h10 : Responsive Mobile : Travail sur section Hebergements and Populaires, mise en forme section Activités (à finir).
