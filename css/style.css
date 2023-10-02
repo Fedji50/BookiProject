@@ -434,8 +434,9 @@ h4 {
 /****** activites ******/   
     .activites-content {
         display: flex;
-
+        justify-content: center;
     }
+
     .activites {
         max-width: 100%;
         padding-left: 3.25%;
@@ -443,7 +444,7 @@ h4 {
     }
 
     .activites-cards {
-        max-width : 864px;
+        max-width : 84.4vw;
         height : 270px;
         display : flex;        
     }
@@ -474,7 +475,6 @@ h4 {
 
     nav {
         flex-direction: column;
-        justify-content: center;
     }
 
     .logo-Booki {
@@ -484,7 +484,7 @@ h4 {
     #nav-ul {
         display : grid;
         grid-template-columns: 50vw 50vw;
-        margin-right: 13vw;    
+        margin-right: 6.5vw;    
     }
     
     #nav-ul li {
@@ -495,6 +495,9 @@ h4 {
 
     #nav-ul li:hover {
         border-bottom: 2px solid var(--main-color);
+        border-top: none;
+    }
+    .nav-lien:hover {
         border-top: none;
     }
     .page-title {
@@ -535,7 +538,6 @@ h4 {
     .filter {
         display: grid;
         grid-template-columns: 50% 50%;
-        height: 15vh;
         gap: 2vh 1vw;
     }
     .filter-buttons {
@@ -553,6 +555,13 @@ h4 {
     .hebergements-cards {
         display: block;
     }
+    .hebergements-cards a:nth-child(1) {order:1}
+    .hebergements-cards a:nth-child(2) {order:6}
+    .hebergements-cards a:nth-child(3) {order:1}
+    .hebergements-cards a:nth-child(4) {order:1}
+    .hebergements-cards a:nth-child(5) {order:2}
+    .hebergements-cards a:nth-child(6) {order:5}
+
     .hebergements-and-populaires .populaires {
         order: -1;
     }

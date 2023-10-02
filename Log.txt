@@ -17,4 +17,5 @@
 28/09/2023 14h30 : Mise en forme section Nav.
 29/09/2023 14h30 : Responsive Mobile : Mise en forme section Form et Filters. Changement index.html -> ajut de la div class="filter" pour mettre les boutons de filtres.
 01/10/2023 22h10 : Responsive Mobile : Travail sur section Hebergements and Populaires, mise en forme section Activités (à finir).
-02/10/2023 09h55 : Responsive Mobile: Mise en forme section Activites (ajout propriété Height: Fit-content sur classe .activites-cards et . activites-content) et Footer.
+02/10/2023 09h55 : Responsive Mobile : Mise en forme section Activites (ajout propriété Height: Fit-content sur classe .activites-cards et . activites-content) et Footer.
+	   12h05 : Responsive Mobile : Mise en forme Nav. et correction section Activités.
