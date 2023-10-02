@@ -408,7 +408,7 @@ h4 {
     .heb-card .card-subtitle {
         font-size: 13px;
     }
-
+/****** Populaires ******/
     .populaires {
         width: 100%;
         margin-top: 50px;
@@ -553,14 +553,16 @@ h4 {
         font-size: 1.33em;
     }
     .hebergements-cards {
-        display: block;
+        display: flex;
+        flex-direction: column;
     }
-    .hebergements-cards a:nth-child(1) {order:1}
-    .hebergements-cards a:nth-child(2) {order:6}
-    .hebergements-cards a:nth-child(3) {order:1}
-    .hebergements-cards a:nth-child(4) {order:1}
-    .hebergements-cards a:nth-child(5) {order:2}
-    .hebergements-cards a:nth-child(6) {order:5}
+
+    .card1 {order:1;}
+    .card2 {order:6;}
+    .card3 {order:3;}
+    .card4 {order:4;}
+    .card5 {order:2;}
+    .card6 {order:5;}
 
     .hebergements-and-populaires .populaires {
         order: -1;
