@@ -28,4 +28,6 @@
 		   (#nav-ul li {suppresion de paddin-bottom: 3vh; et ajout de flex-direction: column;})
 		   (suppression de #nav-ul li:hover et du contenu)
 		   (ajout de .underline {width: 50w; height:2px;} et de #nav-ul li:hover .underline {background-color: var(--main-color)})
+	   18h05 : Responsive Mobile : modifications partie Filters 
+		   (.filter {gap: 2.5vh et 1vw} et .filters-buttons {width: 44.5vw au lieu de 45vw})
 				
