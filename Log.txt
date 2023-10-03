@@ -21,3 +21,11 @@
 	   12h05 : Responsive Mobile : Mise en forme Nav. et correction section Activités.
 	   18h30 : Responsive Mobile : Mise en forme section Hebergements -> Essai de la propriété Order des cartes hebergements-cards. 
 		   Création des div class="card_" pour définir l'ordre.
+03/10/2023 17h55 : Responsive Mobile : Réorganisation de l'odre des heb-card dans Hebergements->aojout de valeurs négatives pour remettre en ordre.
+		   Ajout d'une div class="underline" pour effet soulignage lors du hover sur nav-lien. 
+		   (#nav-ul {width:100vw; padding-left: 0px; margin-right: 0px; et suppression margin-right: 6.5vw})
+		   (nav-lien {ajout de display: flex; justify-content: center; padding-bottom: 20px; padding-top: 0px; margin-left: 0px;})
+		   (#nav-ul li {suppresion de paddin-bottom: 3vh; et ajout de flex-direction: column;})
+		   (suppression de #nav-ul li:hover et du contenu)
+		   (ajout de .underline {width: 50w; height:2px;} et de #nav-ul li:hover .underline {background-color: var(--main-color)})
+				

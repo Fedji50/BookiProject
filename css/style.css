@@ -482,20 +482,30 @@ h4 {
     }
 
     #nav-ul {
+        width: 100vw;
         display : grid;
-        grid-template-columns: 50vw 50vw;
-        margin-right: 6.5vw;    
+        grid-template-columns: 50% 50%; 
+        padding-left: 0px;
+        margin-right: 0px;   
     }
-    
+    .nav-lien {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+        padding-top: 0px;
+        margin-left: 0px;
+    }
     #nav-ul li {
         display: flex;
         justify-content: center;
-        padding-bottom: 3vh;
+        flex-direction: column;
     }
-
-    #nav-ul li:hover {
-        border-bottom: 2px solid var(--main-color);
-        border-top: none;
+    .underline {
+        width: 50vw;
+        height: 2px
+    }
+    #nav-ul li:hover .underline{
+        background-color: var(--main-color);
     }
     .nav-lien:hover {
         border-top: none;
@@ -557,12 +567,12 @@ h4 {
         flex-direction: column;
     }
 
-    .card1 {order:1;}
-    .card2 {order:6;}
-    .card3 {order:3;}
-    .card4 {order:4;}
-    .card5 {order:2;}
-    .card6 {order:5;}
+    .card1 {order: -5;}
+    .card2 {order: 0;}
+    .card3 {order: -3;}
+    .card4 {order: -2;}
+    .card5 {order: -4;}
+    .card6 {order: -1;}
 
     .hebergements-and-populaires .populaires {
         order: -1;
