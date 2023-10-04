@@ -460,8 +460,14 @@ h4 {
     }
 
     .activites img {
-        height: 200px;
+        height: 12em;
         width: auto;
+    }
+    .card-t {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 }
 
