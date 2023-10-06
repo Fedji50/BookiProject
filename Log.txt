@@ -30,4 +30,6 @@
 		   (ajout de .underline {width: 50w; height:2px;} et de #nav-ul li:hover .underline {background-color: var(--main-color)})
 	   18h05 : Responsive Mobile : modifications partie Filters 
 		   (.filter {gap: 2.5vh et 1vw} et .filters-buttons {width: 44.5vw au lieu de 45vw})
-04/10/2023 15h10 : Responsive Tablette : Création <div class="card-t"> et application sur resolution < ou = 1024px (.card-t {height :100%; display: flex; flex-direction:column; jsutify-content: center;})				
+04/10/2023 15h10 : Responsive Tablette : Création <div class="card-t"> et application sur resolution < ou = 1024px (.card-t {height :100%; display: flex; flex-direction:column; jsutify-content: center;})
+06/10/2023 15h40 : Responsive Tablette : Changements diposition .activites-cards {height:220px; display: grid; grid-template-columns: 23% 23% 23% 23%;}, .activites-content {margin-bottom: 35px;},
+		   .lieu-card {height: 220px;}, .lieu-card img {height: 75%;}, .card-t {height: 25%;}				
