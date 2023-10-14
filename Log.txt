@@ -33,4 +33,5 @@
 04/10/2023 15h10 : Responsive Tablette : Création <div class="card-t"> et application sur resolution < ou = 1024px (.card-t {height :100%; display: flex; flex-direction:column; jsutify-content: center;})
 06/10/2023 15h40 : Responsive Tablette : Changements diposition .activites-cards {height:220px; display: grid; grid-template-columns: 23% 23% 23% 23%;}, .activites-content {margin-bottom: 35px;},
 		   .lieu-card {height: 220px;}, .lieu-card img {height: 75%;}, .card-t {height: 25%;}
-13/10/2023 14h00 : Màj fichier Readme.md				
+13/10/2023 14h00 : Màj fichier Readme.md
+14/10/2023 18h00 : Modification style.css (/****** General ******/ html,body {width: 100%; height: 100%; margin: 0px; padding: 0px;overflow-x: hidden;}				
